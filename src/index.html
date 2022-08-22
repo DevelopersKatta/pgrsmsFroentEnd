@@ -6,8 +6,43 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <script src="./assets/user/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/user/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/user/js/wow.min.js"></script>
+  <script src="./assets/user/js/owl.carousel.min.js"></script>
+  <script src="./assets/user/js/counterup.min.js"></script>
+  <script src="./assets/user/js/easing.min.js"></script>
+  <script src="./assets/user/js/waypoints.min.js"></script>
+  <script src="./assets/user/js/main.js"></script>
+  <!-- <script src="./assets/user/js/vendor/"></script> -->
 </head>
 <body>
   <app-root></app-root>
+
+  <script>
+    function showPassword() {
+              var x = document.getElementById("password");
+              // var y = document.getElementById("cpassword");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+
+              }
+        }
+
+        var spinner = function () {
+        setTimeout(function () {
+            if ($('#spinner').length > 0) {
+                $('#spinner').removeClass('show');
+            }
+        }, 1);
+    };
+    spinner();
+  </script>
 </body>
 </html>

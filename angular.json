@@ -23,9 +23,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/user/css/animate.min.css",
+              "src/assets/user/css/bootstrap-icons.css",
+              "src/assets/user/css/bootstrap.min.css",
+              "src/assets/user/css/style.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"
             ],
-            "scripts": []
+            
+            "scripts": [  
+              "node_modules/jquery/dist/jquery.min.js"          
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f007fb7c-8b5e-4df6-af1c-f33df7bdec68"
   }
 }
