@@ -44,7 +44,7 @@ const appRoutes:Routes=[
   {path: 'owner-login', component:OwnerLoginComponent},
   {path: 'owner-register', component:OwnerRegistrationComponent},
   {path: 'owner-dashboard', component:OwnerDashboardComponent},
-  {path: 'add-pg', component:OwnerAddPgComponent}
+  {path: 'owner-add-pg', component:OwnerAddPgComponent}
 
 ]
 
